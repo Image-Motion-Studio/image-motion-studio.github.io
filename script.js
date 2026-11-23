@@ -23,7 +23,7 @@ ro: {
     "proc.h":"Cum lucrăm","proc.s":"Un proces simplu, în 4 pași, fără surprize.","proc.needs":"Ce ne trebuie de la tine","proc.faqCta":"Vezi întrebările frecvente",
     "port.h":"Portofoliu","port.s":"Exemple de clipuri și materiale create în studio. Apasă pe un clip ca să-l vezi.","port.more":"Alte materiale",
     "about.h":"Despre noi","about.s":"Cine suntem și cum lucrăm.","about.vals":"Ce ne definește",
-    "ct.h":"Contact","ct.s":"Cel mai rapid ne găsești în DM. Alege rețeaua preferată.","ct.faq":"Întrebări frecvente",
+    "ct.mail":"E-mail","ct.h":"Contact","ct.s":"Cel mai rapid ne găsești în DM. Alege rețeaua preferată.","ct.faq":"Întrebări frecvente",
     "cta.title":"Hai să creăm ceva spectaculos","cta.lead":"Scrie-ne în DM pentru comenzi — răspundem rapid.",
     "foot.tag":"Imagini și clipuri AI","foot.nav":"Pagini","foot.follow":"Urmărește-ne"
   },
@@ -67,7 +67,7 @@ en: {
     "proc.h":"How it works","proc.s":"A simple 4-step process, no surprises.","proc.needs":"What we need from you","proc.faqCta":"See the FAQ",
     "port.h":"Portfolio","port.s":"Examples of clips and materials made in the studio. Tap a clip to watch it.","port.more":"More materials",
     "about.h":"About us","about.s":"Who we are and how we work.","about.vals":"What defines us",
-    "ct.h":"Contact","ct.s":"The fastest way to reach us is by DM. Pick your favorite network.","ct.faq":"Frequently asked questions",
+    "ct.mail":"Email","ct.h":"Contact","ct.s":"The fastest way to reach us is by DM. Pick your favorite network.","ct.faq":"Frequently asked questions",
     "cta.title":"Let's create something spectacular","cta.lead":"DM us to place an order — we reply fast.",
     "foot.tag":"AI images and clips","foot.nav":"Pages","foot.follow":"Follow us"
   },
@@ -111,7 +111,7 @@ de: {
     "proc.h":"So läuft es ab","proc.s":"Ein einfacher Ablauf in 4 Schritten, ohne Überraschungen.","proc.needs":"Was wir von dir brauchen","proc.faqCta":"Häufige Fragen ansehen",
     "port.h":"Portfolio","port.s":"Beispiele für Clips und Materialien aus dem Studio. Tippe auf einen Clip, um ihn anzusehen.","port.more":"Weitere Materialien",
     "about.h":"Über uns","about.s":"Wer wir sind und wie wir arbeiten.","about.vals":"Was uns ausmacht",
-    "ct.h":"Kontakt","ct.s":"Am schnellsten erreichst du uns per DM. Wähle dein Lieblingsnetzwerk.","ct.faq":"Häufige Fragen",
+    "ct.mail":"E-Mail","ct.h":"Kontakt","ct.s":"Am schnellsten erreichst du uns per DM. Wähle dein Lieblingsnetzwerk.","ct.faq":"Häufige Fragen",
     "cta.title":"Lass uns etwas Spektakuläres schaffen","cta.lead":"Schreib uns per DM für Bestellungen — wir antworten schnell.",
     "foot.tag":"KI-Bilder und Clips","foot.nav":"Seiten","foot.follow":"Folge uns"
   },
@@ -243,3 +243,11 @@ buildReels();
 let saved = "ro";
 try { saved = localStorage.getItem("ims-lang") || (navigator.language||"ro").slice(0,2); } catch(e){}
 render(T[saved] ? saved : "ro");
+
+/* e-mail asamblat in browser (nu apare in clar in sursa paginii) */
+(function(){
+  const c = $("#mailCard"); if (!c) return;
+  const a = atob("ZGFuaWVsY29qb2NlYTdAZ21haWwuY29t");
+  c.href = "mail" + "to:" + a;
+  $("#mailTxt").textContent = a;
+})();
