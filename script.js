@@ -145,13 +145,13 @@ de: {
 };
 
 const REELS = [
-  ["ims_fitness",          {ro:"Reclamă sală de fitness", en:"Gym ad",            de:"Fitnessstudio-Werbung"}],
-  ["massage_portofoliu",   {ro:"Reclamă salon de masaj",  en:"Massage studio ad", de:"Massagesalon-Werbung"}],
-  ["coffee_ai",            {ro:"Reclamă cafea",           en:"Coffee ad",         de:"Kaffee-Werbung"}],
-  ["yourad_test2",         {ro:"Reclamă personalizată",   en:"Custom ad",         de:"Individuelle Werbung"}],
   ["cat_office_v3",        {ro:"Clip creativ AI",         en:"Creative AI clip",  de:"Kreativer KI-Clip"}],
+  ["coffee_ai",            {ro:"Reclamă cafea",           en:"Coffee ad",         de:"Kaffee-Werbung"}],
   ["pisica_neagra_zapada", {ro:"Scenă cinematică",        en:"Cinematic scene",   de:"Filmische Szene"}],
+  ["massage_portofoliu",   {ro:"Reclamă salon de masaj",  en:"Massage studio ad", de:"Massagesalon-Werbung"}],
+  ["yourad_test2",         {ro:"Reclamă personalizată",   en:"Custom ad",         de:"Individuelle Werbung"}],
   ["traian_decebal",       {ro:"Scenă istorică",          en:"Historical scene",  de:"Historische Szene"}],
+  ["ims_fitness",          {ro:"Reclamă sală de fitness", en:"Gym ad",            de:"Fitnessstudio-Werbung"}],
   ["one_more_video",       {ro:"Clip publicitar",         en:"Promo clip",        de:"Werbeclip"}]
 ];
 
