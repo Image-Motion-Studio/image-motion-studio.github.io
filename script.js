@@ -34,7 +34,8 @@ ro: {
     {t:"Animare imagini",d:"Transformăm o fotografie într-un clip scurt în care persoanele și scena prind viață, cu mișcări naturale.",b:["Portrete de familie animate","Fotografii vechi care prind viață","Clip scurt, gata de postat"]},
     {t:"Clipuri video & reclame",d:"Clipuri verticale scurte, perfecte pentru TikTok, Instagram Reels și Facebook: de la idee și scenariu până la montajul final.",b:["Reclame pentru afaceri locale","Invitații și felicitări video","Text, logo și date de contact în clip"]},
     {t:"Proiecte PDF profesionale",d:"Prezentări, oferte comerciale, meniuri și cataloage cu aspect profesional, în identitatea brandului tău.",b:["Prezentări și oferte","Meniuri și flyere digitale","Cataloage de produse"]},
-    {t:"Logo-uri",d:"Un logo și o identitate vizuală care te fac ușor de recunoscut, create împreună cu tine.",b:["Concept de logo","Paletă de culori și stil vizual","Fișiere gata de folosit pe rețele sociale"]}
+    {t:"Logo-uri",d:"Un logo și o identitate vizuală care te fac ușor de recunoscut, create împreună cu tine.",b:["Concept de logo","Paletă de culori și stil vizual","Fișiere gata de folosit pe rețele sociale"]},
+    {t:"Copywriting: texte publicitare și e-mailuri",d:"Texte care atrag atenția și conving: reclame scrise, texte pentru postări și site, e-mailuri și mesaje către clienți, în tonul brandului tău.",b:["Reclame și texte pentru postări","E-mailuri și newslettere","Descrieri de produse și servicii"]}
   ],
   steps:[
     {t:"Ne scrii ideea",d:"Ne scrii în DM pe Instagram, TikTok sau Facebook. Spune-ne ce ai nevoie, unde vei folosi materialul și, dacă ai, trimite poze sau exemple care îți plac."},
@@ -77,7 +78,8 @@ en: {
     {t:"Image animation",d:"We turn a photograph into a short clip where people and scene come to life with natural motion.",b:["Animated family portraits","Old photos that come alive","Short clip, ready to post"]},
     {t:"Video clips & ads",d:"Short vertical clips, perfect for TikTok, Instagram Reels and Facebook: from idea and script to the final edit.",b:["Ads for local businesses","Video invitations and greetings","Text, logo and contact details in the clip"]},
     {t:"Professional PDF projects",d:"Presentations, commercial offers, menus and catalogs with a professional look, in your brand's identity.",b:["Presentations and offers","Menus and digital flyers","Product catalogs"]},
-    {t:"Logos",d:"A logo and visual identity that make you easy to recognize, created together with you.",b:["Logo concept","Color palette and visual style","Files ready for social media"]}
+    {t:"Logos",d:"A logo and visual identity that make you easy to recognize, created together with you.",b:["Logo concept","Color palette and visual style","Files ready for social media"]},
+    {t:"Copywriting: ads, texts & emails",d:"Words that grab attention and convince: written ads, copy for posts and websites, emails and customer messages, in your brand's voice.",b:["Ad copy and post captions","Emails and newsletters","Product and service descriptions"]}
   ],
   steps:[
     {t:"Tell us your idea",d:"DM us on Instagram, TikTok or Facebook. Tell us what you need, where you'll use it and, if you have them, send photos or examples you like."},
@@ -120,7 +122,8 @@ de: {
     {t:"Bilder animieren",d:"Wir verwandeln ein Foto in einen kurzen Clip, in dem Personen und Szene mit natürlichen Bewegungen lebendig werden.",b:["Animierte Familienporträts","Alte Fotos, die lebendig werden","Kurzer Clip, bereit zum Posten"]},
     {t:"Videoclips & Werbung",d:"Kurze Hochformat-Clips, perfekt für TikTok, Instagram Reels und Facebook: von der Idee und dem Skript bis zum fertigen Schnitt.",b:["Werbung für lokale Unternehmen","Video-Einladungen und Grußvideos","Text, Logo und Kontaktdaten im Clip"]},
     {t:"Professionelle PDF-Projekte",d:"Präsentationen, Angebote, Menüs und Kataloge mit professionellem Look, in der Identität deiner Marke.",b:["Präsentationen und Angebote","Menüs und digitale Flyer","Produktkataloge"]},
-    {t:"Logos",d:"Ein Logo und eine visuelle Identität, die dich leicht erkennbar machen, gemeinsam mit dir entwickelt.",b:["Logo-Konzept","Farbpalette und visueller Stil","Dateien für Social Media"]}
+    {t:"Logos",d:"Ein Logo und eine visuelle Identität, die dich leicht erkennbar machen, gemeinsam mit dir entwickelt.",b:["Logo-Konzept","Farbpalette und visueller Stil","Dateien für Social Media"]},
+    {t:"Copywriting: Werbetexte & E-Mails",d:"Texte, die auffallen und überzeugen: Werbeanzeigen, Texte für Posts und Website, E-Mails und Kundennachrichten, im Ton deiner Marke.",b:["Werbetexte und Post-Texte","E-Mails und Newsletter","Produkt- und Leistungsbeschreibungen"]}
   ],
   steps:[
     {t:"Idee senden",d:"Schreib uns per DM auf Instagram, TikTok oder Facebook. Sag uns, was du brauchst, wofür du es nutzt und sende, wenn du magst, Fotos oder Beispiele."},
