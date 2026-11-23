@@ -186,7 +186,7 @@ function buildLayout(){
 /* ---------- RANDARE PE LIMBĂ ---------- */
 function cta(d){
   return `<div class="wrap center"><img src="assets/logo-icon.svg" alt="" width="84" height="84" class="cta-logo"><h2>${d.ui["cta.title"]}</h2><p class="lead">${d.ui["cta.lead"]}</p>
-  <div class="cta-row c"><a class="btn" href="${LINKS.ig}" target="_blank" rel="noopener">Instagram</a><a class="btn ghost" href="${LINKS.tt}" target="_blank" rel="noopener">TikTok</a><a class="btn ghost" href="${LINKS.fb}" target="_blank" rel="noopener">Facebook</a></div></div>`;
+  <div class="cta-row c"><a class="btn" href="${LINKS.ig}" target="_blank" rel="noopener">Instagram</a><a class="btn ghost" href="${LINKS.tt}" target="_blank" rel="noopener">TikTok</a><a class="btn ghost" href="${LINKS.fb}" target="_blank" rel="noopener">Facebook</a>${PAGE==="home" ? '<a class="btn ghost" data-mail="txt" href="#">…</a>' : ''}</div></div>`;
 }
 function faqHtml(d){ return d.faq.map(f => `<details class="faq"><summary>${f.q}</summary><p>${f.a}</p></details>`).join(""); }
 
@@ -207,6 +207,7 @@ function render(l){
   document.title = d.titles[PAGE];
   document.documentElement.lang = l;
   $$(".lang button").forEach(b => b.classList.toggle("on", b.dataset.lang === l));
+  setMail();
   observe();
 }
 
@@ -245,9 +246,8 @@ try { saved = localStorage.getItem("ims-lang") || (navigator.language||"ro").sli
 render(T[saved] ? saved : "ro");
 
 /* e-mail asamblat in browser (nu apare in clar in sursa paginii) */
-(function(){
-  const c = $("#mailCard"); if (!c) return;
-  const a = atob("ZGFuaWVsY29qb2NlYTdAZ21haWwuY29t");
-  c.href = "mail" + "to:" + a;
-  $("#mailTxt").textContent = a;
-})();
+function setMail(){
+  const a = atob("ZGFuaWVsY29qb2NlYTdAZ21haWwuY29t"), h = "mail" + "to:" + a;
+  const c = $("#mailCard"); if (c) { c.href = h; $("#mailTxt").textContent = a; }
+  $$('[data-mail="txt"]').forEach(el => { el.href = h; el.textContent = a; });
+}
