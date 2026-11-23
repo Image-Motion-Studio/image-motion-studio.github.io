@@ -43,7 +43,7 @@ ro: {
     {t:"Creăm",d:"Generăm imaginile sau clipul cu AI, apoi le finisăm: montaj, culori, text, logo și sunet."},
     {t:"Livrăm",d:"Primești fișierele gata de postat. Dacă vrei schimbări, avem inclusă o rundă de ajustări."}
   ],
-  needs:["O descriere a ideii tale","Pozele de restaurat sau animat, cât mai clare","Logo-ul și datele de contact, dacă apar în clip","Limba dorită: română, engleză sau germană"],
+  needs:["O descriere a ideii tale","Pozele de restaurat sau animat, cât mai clare","Logo-ul și datele de contact, dacă apar în clip","Limba dorită: toate limbile"],
   faq:[
     {q:"Ce formate primesc?",a:"Imagini PNG sau JPG, clipuri MP4 verticale (9:16) pentru TikTok, Instagram și Facebook, iar documentele în PDF. Dacă ai nevoie de alt format, spune-ne."},
     {q:"Pot cere modificări?",a:"Da, o rundă de ajustări este inclusă în comandă."},
@@ -87,7 +87,7 @@ en: {
     {t:"We create",d:"We generate the images or clip with AI, then polish them: editing, colors, text, logo and sound."},
     {t:"We deliver",d:"You get post-ready files. If you want changes, one round of tweaks is included."}
   ],
-  needs:["A description of your idea","Photos to restore or animate, as clear as possible","Your logo and contact details, if they appear in the clip","The language you want: Romanian, English or German"],
+  needs:["A description of your idea","Photos to restore or animate, as clear as possible","Your logo and contact details, if they appear in the clip","The language you want: all languages"],
   faq:[
     {q:"What formats do I get?",a:"PNG or JPG images, vertical MP4 clips (9:16) for TikTok, Instagram and Facebook, and PDF documents. If you need another format, just ask."},
     {q:"Can I ask for changes?",a:"Yes, one round of tweaks is included in the order."},
@@ -131,7 +131,7 @@ de: {
     {t:"Wir erstellen",d:"Wir generieren Bilder oder Clip mit KI und veredeln sie anschließend: Schnitt, Farben, Text, Logo und Ton."},
     {t:"Lieferung",d:"Du erhältst postfertige Dateien. Wenn du Änderungen möchtest, ist eine Korrekturrunde inklusive."}
   ],
-  needs:["Eine Beschreibung deiner Idee","Fotos zum Restaurieren oder Animieren, möglichst klar","Dein Logo und deine Kontaktdaten, falls sie im Clip erscheinen","Die gewünschte Sprache: Rumänisch, Englisch oder Deutsch"],
+  needs:["Eine Beschreibung deiner Idee","Fotos zum Restaurieren oder Animieren, möglichst klar","Dein Logo und deine Kontaktdaten, falls sie im Clip erscheinen","Die gewünschte Sprache: alle Sprachen"],
   faq:[
     {q:"Welche Formate erhalte ich?",a:"PNG- oder JPG-Bilder, vertikale MP4-Clips (9:16) für TikTok, Instagram und Facebook sowie PDF-Dokumente. Brauchst du ein anderes Format, sag uns Bescheid."},
     {q:"Kann ich Änderungen verlangen?",a:"Ja, eine Korrekturrunde ist in der Bestellung enthalten."},
