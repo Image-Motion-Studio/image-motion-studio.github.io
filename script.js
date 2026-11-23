@@ -13,7 +13,7 @@ const T = {
 ro: {
   ui: {
     "nav.home":"Acasă","nav.services":"Servicii","nav.process":"Cum lucrăm","nav.portfolio":"Portofoliu","nav.about":"Despre","nav.contact":"Contact",
-    "hero.title":"Imagini & clipuri AI","hero.sub":"ieftine, rapide, spectaculoase",
+    "hero.title":"Imagini & clipuri AI","hero.sub":"accesibile, rapide, spectaculoase",
     "hero.lead":"De la o imagine la un clip video de reclamă: transformăm ideile tale în conținut care atrage atenția pe TikTok, Instagram și Facebook.",
     "hero.cta1":"Scrie-ne în DM","hero.cta2":"Vezi portofoliul",
     "home.srv":"Ce creăm pentru tine","home.srvMore":"Vezi toate serviciile",
@@ -99,7 +99,7 @@ en: {
 de: {
   ui: {
     "nav.home":"Start","nav.services":"Leistungen","nav.process":"Ablauf","nav.portfolio":"Portfolio","nav.about":"Über uns","nav.contact":"Kontakt",
-    "hero.title":"KI-Bilder & Clips","hero.sub":"günstig, schnell, spektakulär",
+    "hero.title":"KI-Bilder & Clips","hero.sub":"erschwinglich, schnell, spektakulär",
     "hero.lead":"Vom einzelnen Bild bis zum Werbevideo: Wir machen aus Ihren Ideen Inhalte, die auf TikTok, Instagram und Facebook auffallen.",
     "hero.cta1":"Schreib uns per DM","hero.cta2":"Portfolio ansehen",
     "home.srv":"Was wir für dich erstellen","home.srvMore":"Alle Leistungen ansehen",
