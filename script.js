@@ -190,7 +190,7 @@ function faqHtml(d){ return d.faq.map(f => `<details class="faq"><summary>${f.q}
 function render(l){
   const d = T[l];
   if ($("#srvCards")) $("#srvCards").innerHTML = d.services.map((s,i) => `<a class="card" href="servicii.html#s${i+1}"><span class="num">${i+1}</span><h3>${s.t}</h3><p>${s.d.split(/[:.]/)[0]}</p></a>`).join("");
-  if ($("#procMini")) $("#procMini").innerHTML = d.steps.map((s,i) => `<div class="step"><b>0${i+1}</b><h3>${s.t}</h3></div>`).join("");
+  if ($("#procMini")) $("#procMini").innerHTML = d.steps.map((s,i) => `<div class="step"><b>0${i+1}</b><h3>${s.t}</h3><p>${s.d}</p></div>`).join("");
   if ($("#svcList")) $("#svcList").innerHTML = d.services.map((s,i) => `<article class="svc" id="s${i+1}"><div class="svc-num">${i+1}</div><div class="svc-body"><h3>${s.t}</h3><p>${s.d}</p><ul>${s.b.map(x=>`<li>${x}</li>`).join("")}</ul><a class="btn btn-sm" href="contact.html">${d.ui["svc.cta"]}</a></div></article>`).join("");
   if ($("#stepList")) $("#stepList").innerHTML = d.steps.map((s,i) => `<div class="step big"><b>0${i+1}</b><div><h3>${s.t}</h3><p>${s.d}</p></div></div>`).join("");
   if ($("#needs")) $("#needs").innerHTML = d.needs.map(x => `<li>${x}</li>`).join("");
