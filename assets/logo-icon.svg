@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1B1240"/>
+      <stop offset="1" stop-color="#0B0720"/>
+    </linearGradient>
+    <linearGradient id="play" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF3D9A"/>
+      <stop offset="1" stop-color="#7C4DFF"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22E1FF"/>
+      <stop offset="1" stop-color="#7C4DFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- image frame -->
+  <rect x="262" y="262" width="500" height="500" rx="70" fill="none" stroke="url(#frame)" stroke-width="34"/>
+  <!-- mountains (image) -->
+  <path d="M300 700 L400 575 L470 660 L560 560 L724 700 Z" fill="#22E1FF" opacity=".25"/>
+  <circle cx="400" cy="410" r="36" fill="#22E1FF" opacity=".5"/>
+  <!-- motion trails -->
+  <rect x="150" y="440" width="150" height="26" rx="13" fill="#FF3D9A" opacity=".45"/>
+  <rect x="110" y="500" width="190" height="26" rx="13" fill="#FF3D9A" opacity=".75"/>
+  <rect x="150" y="560" width="150" height="26" rx="13" fill="#FF3D9A" opacity=".45"/>
+  <!-- play -->
+  <path d="M440 400 L440 624 Q440 650 464 637 L664 525 Q686 512 664 499 L464 387 Q440 374 440 400 Z" fill="url(#play)" stroke="#0B0720" stroke-width="14" stroke-linejoin="round"/>
+  <!-- sparkle (AI) -->
+  <path d="M780 190 Q790 250 850 260 Q790 270 780 330 Q770 270 710 260 Q770 250 780 190 Z" fill="#fff"/>
+</svg>
