@@ -48,7 +48,7 @@ ro: {
     {q:"Ce formate primesc?",a:"Imagini PNG sau JPG, clipuri MP4 verticale (9:16) pentru TikTok, Instagram și Facebook, iar documentele în PDF. Dacă ai nevoie de alt format, spune-ne."},
     {q:"Pot cere modificări?",a:"Da, o rundă de ajustări este inclusă în comandă."},
     {q:"Cât durează o comandă?",a:"Depinde de proiect. Îți spunem termenul în ofertă, înainte să începem."},
-    {q:"În ce limbi pot primi materialul?",a:"În română, engleză și germană."},
+    {q:"În ce limbi pot primi materialul?",a:"În orice limbă dorești. Ne poți scrie în română, engleză sau germană, iar materialele le creăm în limba pe care o alegi."},
     {q:"Cum comand?",a:"Scrie-ne în DM pe Instagram, TikTok sau Facebook și stabilim detaliile."}
   ],
   about:["Image Motion Studio transformă ideile în imagini și clipuri create cu inteligență artificială. Lucrăm pentru oameni și afaceri care vor conținut vizual atractiv, fără bugete mari și fără așteptări lungi.","De la restaurarea unei poze de familie până la o reclamă video pentru afacerea ta, combinăm instrumentele AI cu o editare atentă, ca rezultatul să arate profesionist."],
@@ -92,7 +92,7 @@ en: {
     {q:"What formats do I get?",a:"PNG or JPG images, vertical MP4 clips (9:16) for TikTok, Instagram and Facebook, and PDF documents. If you need another format, just ask."},
     {q:"Can I ask for changes?",a:"Yes, one round of tweaks is included in the order."},
     {q:"How long does an order take?",a:"It depends on the project. We give you the deadline in the quote, before we start."},
-    {q:"Which languages can I get the material in?",a:"Romanian, English and German."},
+    {q:"Which languages can I get the material in?",a:"In any language you like. You can write to us in Romanian, English or German, and we create the materials in the language you choose."},
     {q:"How do I order?",a:"DM us on Instagram, TikTok or Facebook and we'll sort out the details."}
   ],
   about:["Image Motion Studio turns ideas into images and clips made with artificial intelligence. We work for people and businesses who want eye-catching visual content, without big budgets and without long waits.","From restoring a family photo to a video ad for your business, we combine AI tools with careful editing so the result looks professional."],
@@ -136,7 +136,7 @@ de: {
     {q:"Welche Formate erhalte ich?",a:"PNG- oder JPG-Bilder, vertikale MP4-Clips (9:16) für TikTok, Instagram und Facebook sowie PDF-Dokumente. Brauchst du ein anderes Format, sag uns Bescheid."},
     {q:"Kann ich Änderungen verlangen?",a:"Ja, eine Korrekturrunde ist in der Bestellung enthalten."},
     {q:"Wie lange dauert eine Bestellung?",a:"Das hängt vom Projekt ab. Den Termin nennen wir dir im Angebot, bevor wir beginnen."},
-    {q:"In welchen Sprachen erhalte ich das Material?",a:"Auf Rumänisch, Englisch und Deutsch."},
+    {q:"In welchen Sprachen erhalte ich das Material?",a:"In jeder Sprache, die du möchtest. Du kannst uns auf Rumänisch, Englisch oder Deutsch schreiben, und wir erstellen die Materialien in der Sprache deiner Wahl."},
     {q:"Wie bestelle ich?",a:"Schreib uns per DM auf Instagram, TikTok oder Facebook, dann klären wir die Details."}
   ],
   about:["Image Motion Studio macht aus Ideen Bilder und Clips, die mit künstlicher Intelligenz entstehen. Wir arbeiten für Menschen und Unternehmen, die ansprechende visuelle Inhalte wollen, ohne großes Budget und ohne lange Wartezeiten.","Von der Restaurierung eines Familienfotos bis zum Werbevideo für dein Unternehmen verbinden wir KI-Werkzeuge mit sorgfältigem Schnitt, damit das Ergebnis professionell aussieht."],
