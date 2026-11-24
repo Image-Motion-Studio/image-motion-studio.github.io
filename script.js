@@ -241,9 +241,9 @@ function observe(){
 /* ---------- START ---------- */
 buildLayout();
 buildReels();
-let saved = "ro";
-try { saved = localStorage.getItem("ims-lang") || (navigator.language||"ro").slice(0,2); } catch(e){}
-render(T[saved] ? saved : "ro");
+let saved = "en";
+try { saved = localStorage.getItem("ims-lang") || (navigator.language||"en").slice(0,2); } catch(e){}
+render(T[saved] ? saved : "en");
 
 /* e-mail asamblat in browser (nu apare in clar in sursa paginii) */
 function setMail(){
