@@ -168,7 +168,7 @@ function buildLayout(){
       <span class="brand-txt"><b>IMAGE MOTION</b><i>STUDIO</i></span>
     </a>
     <nav class="links" id="links">${nav}<a href="contact.html" class="btn btn-sm${PAGE==="contact"?" active":""}" data-i18n="nav.contact"></a></nav>
-    <div class="lang" role="group" aria-label="Language"><button data-lang="ro">RO</button><button data-lang="en">EN</button><button data-lang="de">DE</button></div>
+    <div class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="de">DE</button><button data-lang="ro">RO</button></div>
     <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
   </header>`;
   $("#ftr").outerHTML = `
