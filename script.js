@@ -145,14 +145,14 @@ de: {
 };
 
 const REELS = [
-  ["cat_office_v3",        {ro:"Clip creativ AI",         en:"Creative AI clip",  de:"Kreativer KI-Clip"}],
-  ["coffee_ai",            {ro:"Reclamă cafea",           en:"Coffee ad",         de:"Kaffee-Werbung"}],
-  ["pisica_neagra_zapada", {ro:"Scenă cinematică",        en:"Cinematic scene",   de:"Filmische Szene"}],
-  ["massage_portofoliu",   {ro:"Reclamă salon de masaj",  en:"Massage studio ad", de:"Massagesalon-Werbung"}],
-  ["yourad_test2",         {ro:"Reclamă personalizată",   en:"Custom ad",         de:"Individuelle Werbung"}],
-  ["traian_decebal",       {ro:"Scenă istorică",          en:"Historical scene",  de:"Historische Szene"}],
-  ["ims_fitness",          {ro:"Reclamă sală de fitness", en:"Gym ad",            de:"Fitnessstudio-Werbung"}],
-  ["one_more_video",       {ro:"Clip publicitar",         en:"Promo clip",        de:"Werbeclip"}]
+  ["cat_office_v3",        {ro:"Video 1", en:"Video 1", de:"Video 1"}],
+  ["coffee_ai",            {ro:"Video 2", en:"Video 2", de:"Video 2"}],
+  ["pisica_neagra_zapada", {ro:"Video 3", en:"Video 3", de:"Video 3"}],
+  ["massage_portofoliu",   {ro:"Video 4", en:"Video 4", de:"Video 4"}],
+  ["yourad_test2",         {ro:"Video 5", en:"Video 5", de:"Video 5"}],
+  ["traian_decebal",       {ro:"Video 6", en:"Video 6", de:"Video 6"}],
+  ["ims_fitness",          {ro:"Video 7", en:"Video 7", de:"Video 7"}],
+  ["one_more_video",       {ro:"Video 8", en:"Video 8", de:"Video 8"}]
 ];
 
 const PLAY = '<svg viewBox="0 0 100 100"><path d="M34 22 L34 78 Q34 84 40 81 L84 54 Q89 50 84 46 L40 19 Q34 16 34 22Z"/></svg>';
