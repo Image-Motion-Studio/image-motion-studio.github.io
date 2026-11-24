@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://image-motion-studio.github.io/og-image.png">
 <link rel="icon" href="assets/logo-icon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="style.css?v=11">
+<link rel="stylesheet" href="style.css?v=12">
 </head>
 <body data-page="home">
 <div id="hdr"></div>
@@ -38,10 +38,9 @@
       </div>
     </div>
     <div class="hero-visual">
-      <div class="player">
-        <div class="player-bar"><i></i><i></i><i></i></div>
-        <div class="screen"><img class="logo-big" src="assets/logo-icon.svg" alt="Image Motion Studio"><div class="scan"></div></div>
-        <div class="timeline"><span></span></div>
+      <div class="phone" id="heroPhone">
+        <video id="heroVid" src="assets/hero/hero.mp4" poster="assets/hero/hero-poster.jpg" playsinline preload="none"></video>
+        <button class="phone-play" id="heroPlay" aria-label="Play video"><svg viewBox="0 0 100 100"><path d="M34 22 L34 78 Q34 84 40 81 L84 54 Q89 50 84 46 L40 19 Q34 16 34 22Z"/></svg></button>
       </div>
     </div>
   </div>
@@ -63,6 +62,6 @@
 <div id="contact"><section class="sec cta" id="cta"></section></div>
 </main>
 <div id="ftr"></div>
-<script src="script.js?v=11"></script>
+<script src="script.js?v=12"></script>
 </body>
 </html>

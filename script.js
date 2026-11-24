@@ -223,10 +223,24 @@ function buildReels(){
     r.onclick = () => {
       if (v.paused) {
         $$(".reel video").forEach(o => { if (o !== v) { o.pause(); o.parentElement.classList.remove("playing"); } });
+        const hv = $("#heroVid"); if (hv) { hv.pause(); $("#heroPhone").classList.remove("playing"); }
         v.play(); r.classList.add("playing");
       } else { v.pause(); r.classList.remove("playing"); }
     };
   });
+}
+
+/* ---------- CLIP HERO (play la apasare) ---------- */
+function buildHero(){
+  const ph = $("#heroPhone"), v = $("#heroVid"); if (!ph || !v) return;
+  const stop = () => { v.pause(); ph.classList.remove("playing"); };
+  ph.onclick = () => {
+    if (v.paused) {
+      $$(".reel video").forEach(o => { o.pause(); o.parentElement.classList.remove("playing"); });
+      v.play(); ph.classList.add("playing");
+    } else stop();
+  };
+  v.onended = () => { v.currentTime = 0; ph.classList.remove("playing"); };
 }
 
 /* ---------- ANIMAȚII LA SCROLL ---------- */
@@ -241,6 +255,7 @@ function observe(){
 /* ---------- START ---------- */
 buildLayout();
 buildReels();
+buildHero();
 let saved = "en";
 try { saved = localStorage.getItem("ims-lang") || (navigator.language||"en").slice(0,2); } catch(e){}
 render(T[saved] ? saved : "en");
